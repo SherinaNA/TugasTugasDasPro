@@ -1,0 +1,84 @@
+//judul
+//simulasi menyimpulkan sebuah penyakit dari gejalanya
+//oleh sherina na
+//2 okt 2022
+
+//kamus
+Gejala1, Gejala2, Gejala3 <-- string
+PL <--  character
+
+/*
+Demam & Batuk & Pilek             = Influenza
+Demam & Betuk & Nyeri Otot        = Covid-19
+Demam & Nyeri & Otot, Ruam        = Demam Berdarah
+Demam & Diare & Dehidrasi         = Tifus
+Demam & Tenggorokan Gatal & Batuk = Radang Tenggorokan
+Demam & Leher Kaku & Pusing       = Sakit Kepala
+*/
+
+//deskripsi
+
+   output "  Bantu dokter umum menentukan diagnosa dari suatu penyakit. "
+   output "============================================================="
+   output (enter)
+   output "Gejala - Gejala yang biasa terjadi : "
+   output "1 . Demam"
+   output "2 . Batuk"
+   output "3 . Pilek"
+   output "4 . Nyeri Otot"
+   output "5 . Ruam"
+   output "6 . Diare"
+   output "7 . Dehidrasi"
+   output "8 . Tenggorokan Gatal"
+   output "9 . Leher Kaku"
+   output "10. Pusing"
+   output "============================================================"
+   output (enter)
+
+   do
+   {
+       output "Masukkan Gejala - Gejala yang dialami:"
+       output (enter)
+       output "Masukkan Gejala 1: ", input (Gejala1)
+       output "Masukkan Gejala 2: ", input (Gejala2)
+       output "Masukkan Gejala 3: ", input (Gejala3)
+       output (enter)
+       output "============================================================"
+
+        if (Gejala1=="Demam" && Gejala2=="Batuk" && Gejala3=="Pilek") // Penyakit 1
+        {
+            output "Maka Diagnosa penyakitnya adalah = Influenza"
+        }
+        else if (Gejala1=="Demam" && Gejala2=="Batuk" && Gejala3=="Nyeri Otot") // Penyakit 2
+        {
+            output << "Maka Diagnosa penyakitnya adalah = Covid-19"
+        }
+        else if (Gejala1=="Demam" && Gejala2=="Nyeri Otot" && Gejala3=="Ruam") // Penyakit 3
+        {
+            output << "Maka Diagnosa penyakitnya adalah = Demam Berdarah"
+        }
+        else if (Gejala1=="Demam" && Gejala2=="Diare" && Gejala3=="Dehidrasi") // Penyakit 4
+        {
+           output << "Maka Diagnosa penyakitnya adalah = Tifus"
+        }
+        else if (Gejala1=="Demam" && Gejala2=="Tenggorokan Gatal" && Gejala3=="Batuk") // Penyakit 5
+        {
+           output << "Maka Diagnosa penyakitnya adalah = Radang Tenggorokan"
+        }
+        else if (Gejala1=="Demam" && Gejala2=="Leher Kaku" && Gejala3=="Pusing") // Penyakit 6
+        {
+           output << "Maka Diagnosa penyakitnya adalah = Sakit Kepala"
+        }
+        else
+        {
+           output << "Anda disarankan untuk dirujuk ke dokter spesialis."
+        }
+       output (enter)
+       output "Apa Anda Ingin Mengulangi Lagi ? "
+       output "Pilih [Y / T]                  : ", input PL
+   }
+   while (PL == 'Y' | PL == 'y');
+   output "============================================================"
+   output "Silahkan tebus obat Anda di apotek dengan menyerahkan resep."
+   output "Terima kasih atas kunjungan Anda."
+   output "============================================================"

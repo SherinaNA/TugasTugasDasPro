@@ -1,0 +1,18 @@
+(Buatlah satu program menjumlahkan 2 angka (variable x dan y))
+
+//judul
+//Program Penjumlahan 2 Angka dengan variable x dan y
+//oleh Sherina NA
+//15 sept 2022
+
+//kamus
+//x, y, hasil --> int
+
+//deskripsi
+output "masukkan nilai x"
+input "input x"
+output "masukkan nilai y"
+input "input y"
+hasil = x + y
+output "hasil dari x + y adalah ="
+output hasil

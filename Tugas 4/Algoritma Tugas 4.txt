@@ -1,0 +1,21 @@
+(Buatlah program menampilkan biodata)
+
+//judul
+//Program menampilkan biodata
+//oleh sherina na
+//16 sept 2022
+
+//kamus
+nama1, nama2, nim, negara, kelamin, goldar, tempat, tanggal, hobi --> string
+
+//deskripsi
+output "Biodata Diri"
+output "Nama Lengkap : ", input nama1
+output "Nama Panggilan : ", input nama2
+output "Tempat Lahir : ", input tempat
+output "Tanggal Lahir : ", input tanggal
+output "NIM : ", input nim
+output "Kewarganegaraan : ", input negara
+output "Jenis Kelamin : ", input kelamin
+output "Golongan Darah : ", input goldar
+output "Hobi : ", input hobi

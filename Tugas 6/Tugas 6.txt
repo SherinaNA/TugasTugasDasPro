@@ -1,0 +1,32 @@
+//judul
+//Buatlah program perhitungan aritmatika
+// a. Perkalian
+// b. Pembagian
+// c. Pengurangan
+// d. Penjumlahan
+// dari  point d, tentukkan hasilnya bilangan ganjil atau genap (menggunakan if)
+
+//kamus
+a, b, kali, bagi, kurang, jumlah --> integer
+
+//deskripsi
+output "Program Perhitungan Aritmatika
+output "Masukkan nilai a = ", input <a>
+output "Masukkan nilai b = ", input <b>
+output "Hasil dari perhitungan aritmatikanya adalah : "
+<a>*<b>=<kali>
+output "a. Hasil dari" <a> "dikali   <b> adalah <kali>
+<a>/<b>=<bagi>
+output "b. Hasil dari" <a> "dibagi   <b> adalah <bagi>
+<a>-<b>=<kurang>
+output "c. Hasil dari" <a> "dikurang <b> adalah <kurang>
+<a>+<b>=<jumlah>
+output "d. Hasil dari" <a> "ditambah <b> adalah <jumlah>
+if (jumlah mod 2 = 0)
+{
+	output "Jawaban point (d) adalah bilangan genap"
+}
+else 
+{
+	output "Jawaban point (d) adalah bilangan ganjil"
+}

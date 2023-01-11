@@ -1,0 +1,26 @@
+//judul
+//tugas 5
+//program sederhana input output suka-suka
+//oleh sherina na
+//21 sept 2022
+
+//kamus
+nama --> string
+alamat --> string
+kelamin --> string //jenis kelamin
+kampus --> string
+jurusan --> string
+
+//deskripsi
+output "Masukkan Nama: ", input "nama"
+output "Masukkan Alamat: ", input "alamat"
+output "Masukkan Jenis Kelamin: ", input "kelamin"
+output "Masukkan Kampus: ", input "kampus"
+output "Masuukkan Jurusan: ", input "jurusan"
+
+outputkan
+Ohh dia itu <nama>, yang alamatnya di <alamat> itu kan?
+Dia itu <kelamin>?
+Ya, iya lah. Masa gitu aja nggak tahu sih kamu.
+Kuliah dimana dia sekarang?
+Itu di <kampus>, ambil  jurusan <jurusan>.

@@ -1,0 +1,12 @@
+//judul
+//program menghitung kelipatan angka 6 (0-100)
+//oleh sherina na
+//5 okt 2022
+
+//kamus
+angka --> int
+
+//deskripsi
+
+//mengoutputkan angka dengan kelipatan 6
+dimulai dari 0, sampai 100.
